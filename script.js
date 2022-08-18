@@ -26,7 +26,7 @@ function nextTime(){
 function chatting(){
   let person1Name = document.querySelector(".person1").value;
   let person2Name = document.querySelector(".person2").value;
-if(randomNumber < 40){
+if(randomNumber < 50){
   document.querySelector(".direction").innerHTML = "Congratulation..!. Hi.."+" "+"<em style ='color:#F806CC; font-size: 1.5625rem;'>"+"''"+person1Name+"''"+"</em>"
   +" "+","+"Your Score is"+" "+randomNumber+" %." +"Your opportunity is progressing as long as you stick to your hope and your dream will come true as well!";
 }else if(randomNumber > 40){
